@@ -1,0 +1,38 @@
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+
+}
+label{
+    font-weight: bold;
+
+}
+input,textarea{
+    padding:10px;
+    font-size:1rem;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+button{
+    width:150px;
+    padding:10px;
+    background-color:#4a90e2;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-weight:bold;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover,
+button:focus{
+    background-color: #357abd;
+}
+.response-message{
+    margin-top:15px;
+    font-style:italic;
+    color:green;
+}
+
+/* as we have studied in the html and css and java script classes and have scene that four structures

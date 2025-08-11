@@ -1,0 +1,16 @@
+.project-card {
+    background-color: #e7f0ff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+}
+
+.project-card:hover,
+.project-card:focus {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(74, 144, 226, 0.3);
+}
